@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* Reset some default browser styles */
+* {
+  margin: 1px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('images/R.jpg');
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header and navigation */
+header {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color:white;
+}
+nav ul li:hover {
+  color:#cc441a;
+}
+
+
+nav a {
+  color: wheat;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #f8b05f;
+  color: #cc441a;
+}
+
+
+/* hero section */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero figure img {
+  max-width: 100%;
+  float: right;
+  margin-right: 20px;
+  margin-top: 3.5rem;
+}
+
+.hero h1 {
+  font-size: 125px;
+  margin-top: 6.5rem;
+  color: #cc441a;
+  font-family: "Creepster";
+  letter-spacing: 3px;
+}
+
+.hero h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.hero a {
+  display: inline-block;
+  background-color: #f17349;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 6rem;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+
+.hero a:hover {
+  background-color: #c84c05;
+}
+
+/* stories section */
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+  
+/* stories section */
+.stories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #fff;
+  
+}
+
+.stories h1{
+  color:#cc441a;
+  font-size: 75px;
+  margin-top: 3rem;
+  padding-left: 5rem;
+  text-align: center;
+  font-family: "Creepster";
+  letter-spacing: 3px;
+
+}
+
+.stories h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.stories h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  text-align: left;
+}
+
+.stories p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5rem;
+  margin-right: 20rem;
+  text-align: justify;
+}
+.stories figure img{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-top: 1rem;
+  border: 2px solid white;
+}
+
+.stories figure1 img{
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-right: 20px;
+  margin-top: 4rem;
+  border: 2px solid white;
+
+}
+
+
+
+/* authors section */
+.authors {
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.authors h1 {
+  color: #cc441a;
+  font-size: 45px;
+  padding-top: 4rem;
+  font-family: "Creepster";
+  letter-spacing: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.authors #authors {
+  display: flex;
+  justify-content: space-around;
+}
+
+.authors figure {
+  margin: 20px;
+}
+
+.authors figure img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cc441a;
+  border-radius: 50%;
+  margin-top: 3rem;
+
+}
+
+.authors h3 {
+  color: #cc441a;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.authors p {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* footer section */
+footer {
+  color: #cc441a;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer h1 {
+  font-size: 65px;
+  font-weight: 650px;
+  font-family: "Creepster";
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+footer input[type="text"] {
+  padding: 15px;
+  border: 3px solid#cc441a;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+footer input[type="submit"] {
+  background-color: #cc441a;
+  padding: 15px 20px;
+  border: 3px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* Add some margin to the footer text */
+footer p {
+  margin-top: 30px;
+}
+
+/* Center the main content */
+main {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+}
